@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+  body {
+    background: url("../images/background/background2.jpg");
+    background-attachment: fixed;
+  }
+
+  .titlepage {
+    opacity: 0.8;
+		transition: all 0.4s ease-in-out;
+	}
+	.titlepage:hover {
+		opacity: 1;
+		/*padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 10px;
+		cursor: default;*/
+	}
+	.titlepage:active {
+		opacity: 0.9;
+		/*padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		cursor: default;*/
+	}
+
+
+	.boxfollow {
+		float: right;
+		border: 2px solid gray;
+		border-top-width: 10px;
+		background-color: #51484F;
+		margin-right: 20px;
+		margin-top: 20px;
+		opacity: 0.8;
+		transition: all 0.3s ease-in-out;
+	}
+	.boxfollow:hover {
+		padding-right: 20px;
+		padding-top: 12px;
+		opacity: 1;
+	}
+	.boxfollow:active {
+		border-top-width: 2px;
+	}
+  div.boxfollow a.link:link{
+    text-shadow: black 1px 1px 1px;
+    transition: all 0.2s ease-in-out;
+  }
+	div.boxfollow a.link:link{
+		color: #FFFAFA;
+	}
+	div.boxfollow a.link:visited{
+		color: #FFFAFB;
+	}
+	div.boxfollow a.link:hover{
+		color: black;
+    text-shadow: none;
+	}
+	div.boxfollow a.link:active{
+		color: gray;
+	}
+
+
+    div.menu {
+    	background-color: #51484F; 
+    	float: left;
+    }
+    div.menu a {
+      text-decoration: none;
+      color: white;
+      padding: 2px;
+      display:inline-block;
+    }
+    div.menu ul {
+      display: inline;
+      margin: 0;
+      padding: 0;
+    }
+    div.menu ul li {
+      display: inline-block;
+      font-size: 25px;
+      transition: all 0.4s ease-in-out;
+      text-align: center;
+      width: 250px;
+    }
+    div.menu ul li:hover {
+      background: #62595F;    
+    }
+    div.menu ul li:hover ul {
+      display: block;
+    }
+    div.menu ul li ul {
+      position: absolute;
+      display: none;
+    }
+    div.menu ul li ul li { 
+      transition: all 0.2s ease-in-out;
+      background: #62595F; 
+      display: block;
+      text-align: center;
+      font-size: 17px;
+      opacity: 0.9;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-top: 2px;
+      margin-bottom: 2px;
+    }
+    div.menu ul li ul li a {
+      display:block !important;
+      text-shadow: black 2px 2px 2px;
+    } 
+    div.menu ul li ul li:hover {
+      opacity: 1;
+      font-size: 20px;
+    }
+
+    footer{
+      padding: 100px;
+      background: #51484F;
+      opacity: 0.8; 
+      transition: all 0.3s ease-in-out;
+    }
+    footer:hover{
+      opacity: 1;
+    }
